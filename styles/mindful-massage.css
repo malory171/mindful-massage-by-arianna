@@ -23,7 +23,8 @@ nav {
 .active-link {
   color: var(--branding-color);
 }
-.hero {
+.hero,
+.footer {
   background-image: radial-gradient(
     var(--branding-color),
     var(--secondary-color)
@@ -34,7 +35,7 @@ nav {
   text-align: center;
   margin: 0 auto;
 }
-img.hero-image {
+.hero-image {
   max-width: 450px;
   padding: 55px 20px;
 }
@@ -46,4 +47,25 @@ h3 {
 h1 {
   color: var(--accent-color);
   font-size: 35px;
+}
+.paragraph {
+  font-size: 20px;
+  font-weight: 500;
+}
+.location {
+  font-family: "Della Respira", serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+.social-link {
+  color: var(--accent-color);
+  font-size: 20px;
+  transition: all 100ms ease-in-out;
+}
+.social-link:hover {
+  color: var(--branding-color);
+}
+.footer-image {
+  max-width: 450px;
+  padding: 28px 20px;
 }
