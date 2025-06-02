@@ -55,8 +55,14 @@ p {
 .location {
   font-family: "Della Respira", serif;
 }
-.about-me {
+.about-me-image {
   max-width: 350px;
+}
+.massage-image {
+  max-width: 350px;
+}
+.separation-image {
+  max-width: 200px;
 }
 .social-link {
   color: var(--accent-color);
