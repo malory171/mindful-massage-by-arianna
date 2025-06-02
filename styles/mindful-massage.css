@@ -48,14 +48,15 @@ h1 {
   color: var(--accent-color);
   font-size: 35px;
 }
-.paragraph {
+p {
   font-size: 20px;
   font-weight: 500;
 }
 .location {
   font-family: "Della Respira", serif;
-  font-size: 20px;
-  font-weight: 500;
+}
+.about-me {
+  max-width: 350px;
 }
 .social-link {
   color: var(--accent-color);
@@ -68,4 +69,8 @@ h1 {
 .footer-image {
   max-width: 450px;
   padding: 28px 20px;
+}
+.open-source-code {
+  font-size: 20px;
+  transition: all 100ms ease-in-out;
 }
